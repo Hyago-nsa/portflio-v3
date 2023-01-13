@@ -20,16 +20,14 @@
 }
 
 .saluteTextContainer {
+  text-align: center;
   flex: 3;
 }
 
-.saluteImgContainer {
-  flex: 1;
-}
 
 .saluteText {
   color: #d72638;
-  font-size: 14vw;
+  font-size: 12vw;
   cursor: default;
 }
 
@@ -43,7 +41,7 @@
 }
 
 .name {
-  font-size: 8vw;
+  font-size: 6vw;
   color: #333;
   cursor: default;
   text-align: center;
@@ -63,17 +61,18 @@
 
 .jobTitle {
   width: 200vw;
-  font-size: 4vw;
+  font-size: 3vw;
   color: #d72638;
   line-height: 100vh;
   cursor: default;
 }
 
-.description{
+.description {
   color: #333;
 }
 
 .projects {
+
   display: flex;
   flex-direction: column;
   gap: 30vh;
@@ -81,7 +80,8 @@
 }
 
 .projectsTitle {
-  font-size: 8vw;
+  text-align: center;
+  font-size: 6vw;
   color: #d72638;
 }
 
@@ -204,7 +204,7 @@
 }
 
 .githubTitle {
-  font-size: 100px;
+  font-size: 80px;
   color: #d72638;
 }
 

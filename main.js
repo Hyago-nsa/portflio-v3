@@ -35,9 +35,9 @@ window.addEventListener("scroll", () => {
   saluteTextContainer.style.transform = `translateY(${offsetY * - 0.5}px)`;
 
   authorName.style.transform = `translateX(calc(-100vh + ${offsetY}px))`;
-  jobTitleContainers[0].style.backgroundPositionY = `${offsetY * 0.5}px`;
+  jobTitleContainers[0].style.backgroundPositionY = `${offsetY * 1.5}px`;
   jobTitleContainers[1].style.backgroundPositionY = `${-offsetY * 0.5}px`;
-  jobTitles[0].style.transform = `translateX(calc(200vh - ${offsetY}px))`;
+  jobTitles[0].style.transform = `translateX(calc(250vh - ${offsetY}px))`;
   jobTitles[1].style.transform = `translateX(calc(-300vh + ${offsetY}px))`;
   projectsTitle.style.transform = `translateY(calc(400vh - ${offsetY}px))`;
   laptop[0].style.transform = `translateX(calc(480vh - ${offsetY}px))`;
