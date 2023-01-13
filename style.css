@@ -4,8 +4,11 @@
   font-family: "Press Start 2P", cursive;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
 .container {
-  background-color: #111;
+  background-color: #1e1b18;
   overflow: hidden;
 }
 
@@ -25,8 +28,8 @@
 }
 
 .saluteText {
-  color: #333;
-  font-size: 12vw;
+  color: #d72638;
+  font-size: 14vw;
   cursor: default;
 }
 
@@ -36,11 +39,11 @@
 
 .nameContainer {
   height: 100vh;
-  background-color: rebeccapurple;
+  background-color: #d72638;
 }
 
 .name {
-  font-size: 10vw;
+  font-size: 8vw;
   color: #333;
   cursor: default;
   text-align: center;
@@ -55,15 +58,19 @@
   background: url("./img/bg1.png");
 }
 .purple {
-  background: rebeccapurple url("./img/bg2.png");
+  background: #d72638 url("./img/bg2.png");
 }
 
 .jobTitle {
   width: 200vw;
-  font-size: 5vw;
-  color: #333;
+  font-size: 4vw;
+  color: #d72638;
   line-height: 100vh;
   cursor: default;
+}
+
+.description{
+  color: #333;
 }
 
 .projects {
@@ -74,8 +81,8 @@
 }
 
 .projectsTitle {
-  font-size: 10vw;
-  color: #333;
+  font-size: 8vw;
+  color: #d72638;
 }
 
 .project {
@@ -124,12 +131,12 @@
 }
 
 .projectTitle {
-  font-size: 7vw;
-  color: #555;
+  font-size: 5vw;
+  color: #d72638;
 }
 
 .projectDesc {
-  font-size: 20px;
+  font-size: 16px;
   color: #555;
   text-align: justify;
   line-height: 40px;
@@ -139,7 +146,7 @@
   padding: 10px 20px;
   background-color: transparent;
   border: 2px solid #555;
-  color: #555;
+  color: #d72638;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -156,8 +163,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #555;
-  color: #222;
+  background-color: #d72638;
+  color: #333;
 }
 
 .projectButton:hover.projectButton::after {
@@ -198,7 +205,12 @@
 
 .githubTitle {
   font-size: 100px;
-  color: #333;
+  color: #d72638;
+}
+
+.githubTitle:nth-child(1) {
+  text-align: center;
+  margin: auto;
 }
 
 .githubChart {
