@@ -104,7 +104,16 @@
 
       <!--- CONTACT -->
       <div class="contactContainer">
-        <div class="contact"></div>
+        <section class="contact" id="contact">
+          <h1 class="heading"> contact me</h1>
+          <form ref={form} onSubmit={sendEmail}>
+              <input type="text" name="name" placeholder="name" class="ContactBox"/>
+              <input type="number" name="phone" placeholder="phone" class="ContactBox"/>
+              <input type="email" name="email" placeholder="email" class="ContactBox"/>
+              <textarea name="message" placeholder="message" class="contactMessage" id="" cols="30" rows="10"></textarea>
+              <input type="submit" value="send message" class="ContactBtn"/>
+          </form>
+      </section>
       </div>
 
       <!---FOOTER -->

@@ -314,17 +314,40 @@
 }
 
 .contactContainer {
+  background: linear-gradient(#1e1b18 50%, #d72638 50%);
   height: 100vh;
   display: flex;
+  text-align: center;
   align-items: center;
   overflow: hidden;
 }
 
 .contact {
-  margin-top: 65%;
+  margin: auto;
+  display: grid;
+  width: 80vw;
+  border: 5px solid red;
+}
+
+.contactBox {
   width: 100%;
-  height: 100%;
-  background-color: #d72638;
+  margin: 0.7rem 0;
+  padding: 1.2rem 1.4rem;
+  text-transform: none;
+  font-size: 2rem;
+}
+
+.contactMessage {
+  width: 100%;
+}
+
+.contact form textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.ContactBtn{
+  width: 100%;
 }
 
 .footerContainer {
